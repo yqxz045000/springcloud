@@ -1,0 +1,58 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: configClient
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      profile: pro
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/   
+      
+      
+                 
+#  cloud:
+#    config:
+#      uri: http://192.168.0.105:7001
+#      profile: pro
+#    stream:
+#      kafka:
+#        binder:
+#          brokers: 192.168.0.105:9091
+#          zk-nodes: 192.168.0.105:9091
+
+
+
+
+
+#endpoints:
+#  refresh:
+#    enabled: true
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
