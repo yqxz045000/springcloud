@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-consumer-1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.104:8761/eureka
+  instance:
+    prefer-ip-address: true
+server:
+  port: 10001
+#logging:
+#  level:
+#    com.example.demo.controller.RechargeTemplate: DEBUG #将feign的接口日志级别设置为debug

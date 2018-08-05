@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-producer-1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.104:8761/eureka
+  instance:
+    prefer-ip-address: true
+server:
+  port: 10002
+
+

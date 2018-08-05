@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-sleuth-zipkin-client-producer
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      percentage: 1.0 #指定需采样的请求百分比，默认为0.1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.0.104:8761/eureka
+  instance:
+    prefer-ip-address: true
+server:
+  port: 10032

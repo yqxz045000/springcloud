@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-config-client
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Exception
+Implementation-Vendor-Id: com.example.springcloud
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/spring-confi
+ g-client/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

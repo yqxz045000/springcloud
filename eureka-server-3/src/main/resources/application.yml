@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: eureka-server-3
+server:
+  port: 8763
+security:
+  basic:
+    enabled: true #开启http basic的认证    
+#  user:
+#    name: root
+#    password: root
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+
+
+
+
+
